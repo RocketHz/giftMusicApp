@@ -1,0 +1,183 @@
+body{
+  background-color: rgb(93, 152, 151);
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.login_container, 
+.register_container{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  justify-items: center;
+  gap: 2.5rem;
+  min-height: 100vh;
+  align-items: center;
+  padding: 1rem;
+}
+
+.login_img,
+.register_img{
+  display: block;
+  max-width: 350px;
+}
+
+.form_container{
+  width: 300px;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.title_formItem{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.87rem;
+  line-height: 2.25rem;
+}
+
+.form_items{
+  display: grid;
+  gap: 1rem;
+}
+
+.labels_items{
+  opacity: .5;
+  color: white;
+  font-size: .87rem;
+  line-height: 1.25rem;
+}
+
+.inputs_items{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding: 0.5rem;
+  background-color: transparent;
+  border-bottom-width: 1px;
+}
+
+.btn_login,
+.btn_register{
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding: 0.5rem;
+  background-image: linear-gradient(145deg,#886AE2 45.75%,#A284F6 100%);
+  border-radius: 2rem;
+  width: max-content;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.home_container{
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.header_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1rem;
+  background-image: linear-gradient(135deg,rgba(61,46,149,.35) 0%,#3D2E95 100%);
+}
+
+.track_list_container{
+  padding-top: 2.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(135deg,rgba(61,46,149,.35) 0%,#3D2E95 100%);
+  gap: 1rem;
+}
+
+.track_list_content{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding: 1rem;
+  background-image: linear-gradient(135deg,rgba(61,46,149,.35) 0%,#3D2E95 100%);
+  border-radius: 1rem;
+  width: min(100%,450px);
+  position: relative;
+}
+
+.form_track{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.37rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-image: linear-gradient(135deg,rgba(61,46,149,.35) 0%,#3D2E95 100%);
+}
+
+.form_track_input {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding: 1rem;
+  background-color: transparent;
+  flex: 1 1 0%;
+  width: auto;
+}
+
+.form_track_select{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  background-color: transparent;
+  text-transform: none;
+}
+
+.track_content{
+    padding-top: 1.5rem;
+    gap: 0.5rem;
+    display: grid;
+}
+
+.track_song_item {
+  padding-right: 0.5rem;
+  padding: 0.25rem;
+  border-radius: 0.375rem;
+  gap: 0.5rem;
+  align-items: center;
+  display: flex;
+}
+
+.track_container_img {
+  max-width: 70px;
+  border-radius: 0.375rem;
+  overflow: hidden;
+}
+
+.track_info_item{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    gap: 0.5rem;
+    flex: 1 1 0%;
+    display: grid;
+}
+
+.track_name {
+  font-weight: 700;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.footer_track {
+  gap: 0.5rem;
+  align-items: center;
+  display: flex;
+}
